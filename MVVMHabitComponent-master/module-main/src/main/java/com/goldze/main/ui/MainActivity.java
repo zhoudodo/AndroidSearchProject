@@ -1,9 +1,9 @@
 package com.goldze.main.ui;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.core.content.ContextCompat;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -16,6 +16,7 @@ import com.goldze.main.databinding.ActivityMainBinding;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.fragment.app.Fragment;
 import me.goldze.mvvmhabit.base.BaseActivity;
 import me.goldze.mvvmhabit.base.BaseViewModel;
 import me.majiajie.pagerbottomtabstrip.NavigationController;

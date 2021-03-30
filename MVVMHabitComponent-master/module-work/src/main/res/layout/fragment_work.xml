@@ -8,7 +8,7 @@
             name="viewModel"
             type="com.goldze.work.ui.viewmodel.WorkViewModel" />
 
-        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />
+        <import type="androidx.recyclerview.widget.LinearLayoutManager" />
 
         <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LineManagers" />
     </data>
@@ -19,14 +19,14 @@
         android:background="@color/appBackColor"
         android:orientation="vertical">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.appcompat.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@android:color/transparent"
             android:dividerHeight="0dip"
             binding:itemBinding="@{viewModel.itemBinding}"
             binding:items="@{viewModel.observableList}"
-            binding:layoutManager="@{LayoutManagers.grid(4)}"
+            binding:layoutManager="@{LinearLayoutManager}"
             binding:lineManager="@{LineManagers.both()}" />
 
         <View style="@style/ViewLineStyle" />

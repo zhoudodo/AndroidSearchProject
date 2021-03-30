@@ -1,7 +1,7 @@
 package com.goldze.msg.ui.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;import androidx.annotation.NonNull;import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -12,6 +12,7 @@ import com.goldze.msg.BR;
 import com.goldze.msg.databinding.FragmentMsgBinding;
 import com.goldze.msg.ui.viewmodel.MsgViewModel;
 
+import androidx.annotation.NonNull;import androidx.annotation.Nullable;
 import me.goldze.mvvmhabit.base.BaseFragment;
 
 
